@@ -1,0 +1,6 @@
+2020-09-17 22:36:38 CST LOG:  no se pudo enlazar al socket IPv6: unrecognized winsock error 10048
+2020-09-17 22:36:38 CST HINT:  ¿Hay otro postmaster corriendo en el puerto 5432? Si no, aguarde unos segundos y reintente.
+2020-09-17 22:36:38 CST LOG:  no se pudo enlazar al socket IPv4: unrecognized winsock error 10048
+2020-09-17 22:36:38 CST HINT:  ¿Hay otro postmaster corriendo en el puerto 5432? Si no, aguarde unos segundos y reintente.
+2020-09-17 22:36:38 CST WARNING:  no se pudo crear el socket de escucha para «*»
+2020-09-17 22:36:38 CST FATAL:  no se pudo crear ningún socket TCP/IP

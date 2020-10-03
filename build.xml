@@ -1,0 +1,15 @@
+<project name="Adempiere Build Travis" default="build" basedir=".">
+    <description>
+        Building ADempiere
+        by
+        Yamel Senih
+        http://www.erpya.com
+    </description>
+  <!-- set global properties for this build -->
+  <property name="adempiere_build" location="utils_dev/build.xml"/>
+  
+  <target name="build">
+    <echo message="Building ADempiere"/>
+	<ant antfile="${adempiere_build}" target="complete"/>
+  </target>
+</project>

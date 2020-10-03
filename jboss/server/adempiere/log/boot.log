@@ -1,0 +1,222 @@
+22:36:48,429 INFO  [Server] Starting JBoss (MX MicroKernel)...
+22:36:48,429 INFO  [Server] Release ID: JBoss [Trinity] 4.2.3.GA (build: SVNTag=JBoss_4_2_3_GA date=200807181417)
+22:36:48,430 DEBUG [Server] Using config: org.jboss.system.server.ServerConfigImpl@28e13c84
+22:36:48,430 DEBUG [Server] Server type: class org.jboss.system.server.ServerImpl
+22:36:48,430 DEBUG [Server] Server loaded through: org.jboss.system.server.NoAnnotationURLClassLoader
+22:36:48,430 DEBUG [Server] Boot URLs:
+22:36:48,430 DEBUG [Server]   file:/F:/Erp/Estable/adempiere/jboss/lib/endorsed/serializer.jar
+22:36:48,430 DEBUG [Server]   file:/F:/Erp/Estable/adempiere/jboss/lib/endorsed/xercesImpl.jar
+22:36:48,430 DEBUG [Server]   file:/F:/Erp/Estable/adempiere/jboss/lib/jboss-jmx.jar
+22:36:48,430 DEBUG [Server]   file:/F:/Erp/Estable/adempiere/jboss/lib/concurrent.jar
+22:36:48,430 DEBUG [Server]   file:/F:/Erp/Estable/adempiere/jboss/lib/log4j-boot.jar
+22:36:48,430 DEBUG [Server]   file:/F:/Erp/Estable/adempiere/jboss/lib/jboss-common.jar
+22:36:48,430 DEBUG [Server]   file:/F:/Erp/Estable/adempiere/jboss/lib/jboss-system.jar
+22:36:48,430 DEBUG [Server]   file:/F:/Erp/Estable/adempiere/jboss/lib/jboss-xml-binding.jar
+22:36:48,430 INFO  [Server] Home Dir: F:\Erp\Estable\adempiere\jboss
+22:36:48,430 INFO  [Server] Home URL: file:/F:/Erp/Estable/adempiere/jboss/
+22:36:48,431 DEBUG [Server] Library URL: file:/F:/Erp/Estable/adempiere/jboss/lib/
+22:36:48,431 INFO  [Server] Patch URL: null
+22:36:48,432 INFO  [Server] Server Name: adempiere
+22:36:48,432 INFO  [Server] Server Home Dir: F:\Erp\Estable\adempiere\jboss\server\adempiere
+22:36:48,433 INFO  [Server] Server Home URL: file:/F:/Erp/Estable/adempiere/jboss/server/adempiere/
+22:36:48,433 INFO  [Server] Server Log Dir: F:\Erp\Estable\adempiere\jboss\server\adempiere\log
+22:36:48,434 DEBUG [Server] Server Data Dir: F:\Erp\Estable\adempiere\jboss\server\adempiere\data
+22:36:48,434 INFO  [Server] Server Temp Dir: F:\Erp\Estable\adempiere\jboss\server\adempiere\tmp
+22:36:48,435 DEBUG [Server] Server Config URL: file:/F:/Erp/Estable/adempiere/jboss/server/adempiere/conf/
+22:36:48,435 DEBUG [Server] Server Library URL: file:/F:/Erp/Estable/adempiere/jboss/server/adempiere/lib/
+22:36:48,435 INFO  [Server] Root Deployment Filename: jboss-service.xml
+22:36:48,437 DEBUG [Server] Starting General Purpose Architecture (GPA)...
+22:36:48,516 DEBUG [Server] Created MBeanServer: org.jboss.mx.server.MBeanServerImpl@13ccf137[ defaultDomain='jboss' ]
+22:36:48,532 DEBUG [Server] Boot url list: [file:/F:/Erp/Estable/adempiere/jboss/server/adempiere/conf/]
+22:36:48,532 DEBUG [Server] Creating loader for URL: file:/F:/Erp/Estable/adempiere/jboss/server/adempiere/conf/
+22:36:48,535 DEBUG [RepositoryClassLoader] setRepository, repository=org.jboss.mx.loading.UnifiedLoaderRepository3@a377714, cl=org.jboss.mx.loading.UnifiedClassLoader3@3f6ac749{ url=file:/F:/Erp/Estable/adempiere/jboss/server/adempiere/conf/ ,addedOrder=0}
+22:36:48,535 DEBUG [RepositoryClassLoader] setRepository, repository=org.jboss.mx.loading.UnifiedLoaderRepository3@a377714, cl=org.jboss.mx.loading.UnifiedClassLoader3@3f6ac749{ url=file:/F:/Erp/Estable/adempiere/jboss/server/adempiere/conf/ ,addedOrder=0}
+22:36:48,535 DEBUG [UnifiedLoaderRepository3] Adding org.jboss.mx.loading.UnifiedClassLoader3@3f6ac749{ url=file:/F:/Erp/Estable/adempiere/jboss/server/adempiere/conf/ ,addedOrder=0}
+22:36:48,588 DEBUG [Server] Failed to create xmbean for: org.jboss.system.server.ServerInfo
+22:36:48,593 INFO  [ServerInfo] Java version: 1.7.0_80,Oracle Corporation
+22:36:48,594 INFO  [ServerInfo] Java VM: Java HotSpot(TM) 64-Bit Server VM 24.80-b11,Oracle Corporation
+22:36:48,595 INFO  [ServerInfo] OS-System: Windows 8.1 6.3,amd64
+22:36:48,595 DEBUG [ServerInfo] Full System Properties Dump
+22:36:48,595 DEBUG [ServerInfo]     java.vendor: Oracle Corporation
+22:36:48,595 DEBUG [ServerInfo]     sun.java.launcher: SUN_STANDARD
+22:36:48,595 DEBUG [ServerInfo]     org.adempiere.server.embedded: true
+22:36:48,595 DEBUG [ServerInfo]     sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+22:36:48,595 DEBUG [ServerInfo]     os.name: Windows 8.1
+22:36:48,596 DEBUG [ServerInfo]     sun.boot.class.path: F:\Erp\Estable\adempiere\jboss\lib\endorsed\serializer.jar;F:\Erp\Estable\adempiere\jboss\lib\endorsed\xercesImpl.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_80\jre\classes
+22:36:48,596 DEBUG [ServerInfo]     sun.desktop: windows
+22:36:48,596 DEBUG [ServerInfo]     java.vm.specification.vendor: Oracle Corporation
+22:36:48,596 DEBUG [ServerInfo]     java.runtime.version: 1.7.0_80-b15
+22:36:48,596 DEBUG [ServerInfo]     user.name: Brayan Reyes
+22:36:48,596 DEBUG [ServerInfo]     jboss.bind.address: DESKTOP-SDQPUHR
+22:36:48,596 DEBUG [ServerInfo]     jboss.home.dir: F:\Erp\Estable\adempiere\jboss
+22:36:48,596 DEBUG [ServerInfo]     user.language: es
+22:36:48,596 DEBUG [ServerInfo]     sun.boot.library.path: C:\Program Files\Java\jdk1.7.0_80\jre\bin
+22:36:48,596 DEBUG [ServerInfo]     jboss.home.url: file:/F:/Erp/Estable/adempiere/jboss/
+22:36:48,596 DEBUG [ServerInfo]     java.version: 1.7.0_80
+22:36:48,596 DEBUG [ServerInfo]     user.timezone: America/Regina
+22:36:48,596 DEBUG [ServerInfo]     jboss.server.home.dir: F:\Erp\Estable\adempiere\jboss\server\adempiere
+22:36:48,596 DEBUG [ServerInfo]     jgroups.bind_addr: DESKTOP-SDQPUHR
+22:36:48,596 DEBUG [ServerInfo]     sun.arch.data.model: 64
+22:36:48,596 DEBUG [ServerInfo]     java.endorsed.dirs: F:\Erp\Estable\adempiere\jboss\lib\endorsed
+22:36:48,596 DEBUG [ServerInfo]     jboss.server.home.url: file:/F:/Erp/Estable/adempiere/jboss/server/adempiere/
+22:36:48,596 DEBUG [ServerInfo]     sun.cpu.isalist: amd64
+22:36:48,596 DEBUG [ServerInfo]     sun.jnu.encoding: Cp1252
+22:36:48,596 DEBUG [ServerInfo]     file.encoding.pkg: sun.io
+22:36:48,596 DEBUG [ServerInfo]     file.separator: \
+22:36:48,596 DEBUG [ServerInfo]     java.specification.name: Java Platform API Specification
+22:36:48,596 DEBUG [ServerInfo]     java.class.version: 51.0
+22:36:48,596 DEBUG [ServerInfo]     jboss.server.config.url: file:/F:/Erp/Estable/adempiere/jboss/server/adempiere/conf/
+22:36:48,596 DEBUG [ServerInfo]     user.country: SV
+22:36:48,596 DEBUG [ServerInfo]     java.home: C:\Program Files\Java\jdk1.7.0_80\jre
+22:36:48,596 DEBUG [ServerInfo]     java.vm.info: mixed mode
+22:36:48,596 DEBUG [ServerInfo]     jboss.lib.url: file:/F:/Erp/Estable/adempiere/jboss/lib/
+22:36:48,596 DEBUG [ServerInfo]     bind.address: DESKTOP-SDQPUHR
+22:36:48,596 DEBUG [ServerInfo]     os.version: 6.3
+22:36:48,596 DEBUG [ServerInfo]     path.separator: ;
+22:36:48,596 DEBUG [ServerInfo]     java.vm.version: 24.80-b11
+22:36:48,597 DEBUG [ServerInfo]     user.variant: 
+22:36:48,597 DEBUG [ServerInfo]     java.protocol.handler.pkgs: org.jboss.net.protocol
+22:36:48,597 DEBUG [ServerInfo]     java.awt.printerjob: sun.awt.windows.WPrinterJob
+22:36:48,597 DEBUG [ServerInfo]     sun.io.unicode.encoding: UnicodeLittle
+22:36:48,597 DEBUG [ServerInfo]     awt.toolkit: sun.awt.windows.WToolkit
+22:36:48,597 DEBUG [ServerInfo]     user.script: 
+22:36:48,597 DEBUG [ServerInfo]     jboss.server.temp.dir: F:\Erp\Estable\adempiere\jboss\server\adempiere\tmp
+22:36:48,597 DEBUG [ServerInfo]     sun.rmi.dgc.client.gcInterval: 3600000
+22:36:48,597 DEBUG [ServerInfo]     user.home: C:\Users\Brayan Reyes
+22:36:48,597 DEBUG [ServerInfo]     java.specification.vendor: Oracle Corporation
+22:36:48,597 DEBUG [ServerInfo]     java.library.path: F:\Erp\Estable\adempiere\jboss\bin\native;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\PostgreSQL\9.3\bin;C:\Program Files\Java\jdk1.6.0_45;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Brayan Reyes\AppData\Local\Microsoft\WindowsApps;C:\Users\Brayan Reyes\AppData\Local\GitHubDesktop\bin
+22:36:48,597 DEBUG [ServerInfo]     java.vendor.url: http://java.oracle.com/
+22:36:48,597 DEBUG [ServerInfo]     program.name: run.bat
+22:36:48,597 DEBUG [ServerInfo]     java.vm.vendor: Oracle Corporation
+22:36:48,597 DEBUG [ServerInfo]     sun.rmi.dgc.server.gcInterval: 3600000
+22:36:48,598 DEBUG [ServerInfo]     java.runtime.name: Java(TM) SE Runtime Environment
+22:36:48,598 DEBUG [ServerInfo]     sun.java.command: org.jboss.Main -c adempiere -b DESKTOP-SDQPUHR
+22:36:48,598 DEBUG [ServerInfo]     java.class.path: C:\Program Files\Java\jdk1.7.0_80\lib\tools.jar;F:\Erp\Estable\adempiere\jboss\bin\run.jar
+22:36:48,598 DEBUG [ServerInfo]     jboss.server.log.dir: F:\Erp\Estable\adempiere\jboss\server\adempiere\log
+22:36:48,598 DEBUG [ServerInfo]     jbossmx.loader.repository.class: org.jboss.mx.loading.UnifiedLoaderRepository3
+22:36:48,598 DEBUG [ServerInfo]     java.vm.specification.name: Java Virtual Machine Specification
+22:36:48,598 DEBUG [ServerInfo]     java.vm.specification.version: 1.7
+22:36:48,598 DEBUG [ServerInfo]     sun.cpu.endian: little
+22:36:48,598 DEBUG [ServerInfo]     sun.os.patch.level: 
+22:36:48,598 DEBUG [ServerInfo]     jboss.server.lib.url: file:/F:/Erp/Estable/adempiere/jboss/server/adempiere/lib/
+22:36:48,598 DEBUG [ServerInfo]     java.io.tmpdir: C:\Users\BRAYAN~1\AppData\Local\Temp\
+22:36:48,598 DEBUG [ServerInfo]     java.vendor.url.bug: http://bugreport.sun.com/bugreport/
+22:36:48,598 DEBUG [ServerInfo]     jboss.server.data.dir: F:\Erp\Estable\adempiere\jboss\server\adempiere\data
+22:36:48,598 DEBUG [ServerInfo]     java.rmi.server.hostname: DESKTOP-SDQPUHR
+22:36:48,598 DEBUG [ServerInfo]     os.arch: amd64
+22:36:48,598 DEBUG [ServerInfo]     java.awt.graphicsenv: sun.awt.Win32GraphicsEnvironment
+22:36:48,598 DEBUG [ServerInfo]     java.ext.dirs: C:\Program Files\Java\jdk1.7.0_80\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+22:36:48,598 DEBUG [ServerInfo]     user.dir: F:\Erp\Estable\adempiere\utils
+22:36:48,598 DEBUG [ServerInfo]     line.separator: 
+
+22:36:48,598 DEBUG [ServerInfo]     java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+22:36:48,598 DEBUG [ServerInfo]     jboss.server.base.dir: F:\Erp\Estable\adempiere\jboss\server
+22:36:48,598 DEBUG [ServerInfo]     jboss.server.base.url: file:/F:/Erp/Estable/adempiere/jboss/server/
+22:36:48,598 DEBUG [ServerInfo]     javax.management.builder.initial: org.jboss.mx.server.MBeanServerBuilderImpl
+22:36:48,598 DEBUG [ServerInfo]     file.encoding: Cp1252
+22:36:48,598 DEBUG [ServerInfo]     java.specification.version: 1.7
+22:36:48,598 DEBUG [ServerInfo]     jboss.server.name: adempiere
+22:36:48,598 DEBUG [ServerInfo]     ADEMPIERE_HOME: F:\Erp\Estable\Adempiere
+22:36:48,602 DEBUG [Server] Created system MBean: jboss.system:type=ServerInfo
+22:36:48,606 DEBUG [Server] Failed to create xmbean for: org.jboss.system.ServiceController
+22:36:48,619 DEBUG [ServiceController] Controller MBean online
+22:36:48,620 DEBUG [Server] Created system MBean: jboss.system:service=ServiceController
+22:36:48,682 DEBUG [Server] Created system XMBean: jboss.system:service=MainDeployer
+22:36:48,682 DEBUG [ServiceController] Creating service jboss.system:service=MainDeployer
+22:36:48,686 DEBUG [MainDeployer] Creating jboss.system:service=MainDeployer
+22:36:48,695 DEBUG [Files] Failed to delete dir: F:\Erp\Estable\adempiere\jboss\server\adempiere\tmp\deploy
+22:36:48,696 DEBUG [MainDeployer] Created jboss.system:service=MainDeployer
+22:36:48,696 DEBUG [ServiceController] Creating dependent components for: jboss.system:service=MainDeployer dependents are: []
+22:36:48,696 DEBUG [ServiceController] starting service jboss.system:service=MainDeployer
+22:36:48,696 DEBUG [MainDeployer] Starting jboss.system:service=MainDeployer
+22:36:48,696 DEBUG [MainDeployer] Started jboss.system:service=MainDeployer
+22:36:48,697 DEBUG [ServiceController] Starting dependent components for: jboss.system:service=MainDeployer dependent components: []
+22:36:48,697 DEBUG [Server] Shutdown hook added
+22:36:48,734 DEBUG [Server] Created system XMBean: jboss.system:service=JARDeployer
+22:36:48,734 DEBUG [ServiceController] Creating service jboss.system:service=JARDeployer
+22:36:48,734 DEBUG [JARDeployer] Creating jboss.system:service=JARDeployer
+22:36:48,743 DEBUG [JARDeployer] Created jboss.system:service=JARDeployer
+22:36:48,743 DEBUG [ServiceController] Creating dependent components for: jboss.system:service=JARDeployer dependents are: []
+22:36:48,743 DEBUG [ServiceController] starting service jboss.system:service=JARDeployer
+22:36:48,743 DEBUG [JARDeployer] Starting jboss.system:service=JARDeployer
+22:36:48,743 DEBUG [MainDeployer] Adding deployer: org.jboss.deployment.JARDeployer@66116674
+22:36:48,744 DEBUG [SuffixOrderHelper] Static suffix exists; ignoring request for adding enhanced suffix: 700:.jar
+22:36:48,744 DEBUG [JARDeployer] Started jboss.system:service=JARDeployer
+22:36:48,744 DEBUG [ServiceController] Starting dependent components for: jboss.system:service=JARDeployer dependent components: []
+22:36:48,760 DEBUG [Server] Created system XMBean: jboss.system:service=ServiceDeployer
+22:36:48,760 DEBUG [ServiceController] Creating service jboss.system:service=ServiceDeployer
+22:36:48,760 DEBUG [SARDeployer] Creating jboss.system:service=ServiceDeployer
+22:36:48,766 DEBUG [SARDeployer] Created jboss.system:service=ServiceDeployer
+22:36:48,766 DEBUG [ServiceController] Creating dependent components for: jboss.system:service=ServiceDeployer dependents are: []
+22:36:48,766 DEBUG [ServiceController] starting service jboss.system:service=ServiceDeployer
+22:36:48,766 DEBUG [SARDeployer] Starting jboss.system:service=ServiceDeployer
+22:36:48,766 DEBUG [MainDeployer] Adding deployer: org.jboss.deployment.SARDeployer@20862402
+22:36:48,770 DEBUG [SARDeployer] Started jboss.system:service=ServiceDeployer
+22:36:48,770 DEBUG [ServiceController] Starting dependent components for: jboss.system:service=ServiceDeployer dependent components: []
+22:36:48,770 INFO  [Server] Core system initialized
+22:36:48,777 DEBUG [Server] Failed to start
+22:36:48,779 DEBUG [NestedThrowable] org.jboss.util.NestedThrowable.parentTraceEnabled=true
+22:36:48,779 DEBUG [NestedThrowable] org.jboss.util.NestedThrowable.nestedTraceEnabled=false
+22:36:48,779 DEBUG [NestedThrowable] org.jboss.util.NestedThrowable.detectDuplicateNesting=true
+org.jboss.deployment.DeploymentException: url file:/F:/Erp/Estable/adempiere/jboss/server/adempiere/conf/jboss-service.xml could not be opened, does it exist?
+	at org.jboss.deployment.DeploymentInfo.<init>(DeploymentInfo.java:214)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:781)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:766)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:155)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:94)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:133)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:142)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:88)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:659)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:210)
+	at com.sun.proxy.$Proxy5.deploy(Unknown Source)
+	at org.jboss.system.server.ServerImpl.doStart(ServerImpl.java:482)
+	at org.jboss.system.server.ServerImpl.start(ServerImpl.java:362)
+	at org.jboss.Main.boot(Main.java:200)
+	at org.jboss.Main$1.run(Main.java:508)
+	at java.lang.Thread.run(Thread.java:745)
+22:36:48,792 INFO  [Server] Runtime shutdown hook called, forceHalt: true
+22:36:48,793 INFO  [Server] JBoss SHUTDOWN: Undeploying all packages
+22:36:48,793 DEBUG [MainDeployer] Undeployed 0 deployed packages
+22:36:48,794 DEBUG [Server] Shutting down all services
+22:36:48,794 DEBUG [ServiceController] Stopping 4 services
+22:36:48,794 DEBUG [ServiceController] stopping service: jboss.system:service=ServiceDeployer
+22:36:48,794 DEBUG [ServiceController] stopping dependent services for: jboss.system:service=ServiceDeployer dependent services are: []
+22:36:48,794 DEBUG [SARDeployer] Stopping jboss.system:service=ServiceDeployer
+22:36:48,794 DEBUG [MainDeployer] Removing deployer: org.jboss.deployment.SARDeployer@20862402
+22:36:48,794 DEBUG [SARDeployer] Stopped jboss.system:service=ServiceDeployer
+22:36:48,794 DEBUG [ServiceController] destroying service: jboss.system:service=ServiceDeployer
+22:36:48,794 DEBUG [ServiceController] destroying dependent services for: jboss.system:service=ServiceDeployer dependent services are: []
+22:36:48,794 DEBUG [SARDeployer] Destroying jboss.system:service=ServiceDeployer
+22:36:48,794 DEBUG [SARDeployer] Destroyed jboss.system:service=ServiceDeployer
+22:36:48,794 DEBUG [ServiceController] removing service: jboss.system:service=ServiceDeployer
+22:36:48,794 DEBUG [ServiceController] removing jboss.system:service=ServiceDeployer from server
+22:36:48,795 DEBUG [ServiceController] stopping service: jboss.system:service=JARDeployer
+22:36:48,795 DEBUG [ServiceController] stopping dependent services for: jboss.system:service=JARDeployer dependent services are: []
+22:36:48,795 DEBUG [JARDeployer] Stopping jboss.system:service=JARDeployer
+22:36:48,795 DEBUG [JARDeployer] Stopped jboss.system:service=JARDeployer
+22:36:48,795 DEBUG [ServiceController] destroying service: jboss.system:service=JARDeployer
+22:36:48,795 DEBUG [ServiceController] destroying dependent services for: jboss.system:service=JARDeployer dependent services are: []
+22:36:48,795 DEBUG [JARDeployer] Destroying jboss.system:service=JARDeployer
+22:36:48,795 DEBUG [JARDeployer] Destroyed jboss.system:service=JARDeployer
+22:36:48,795 DEBUG [ServiceController] removing service: jboss.system:service=JARDeployer
+22:36:48,796 DEBUG [ServiceController] removing jboss.system:service=JARDeployer from server
+22:36:48,796 DEBUG [ServiceController] stopping service: jboss.system:service=MainDeployer
+22:36:48,796 DEBUG [ServiceController] stopping dependent services for: jboss.system:service=MainDeployer dependent services are: []
+22:36:48,796 DEBUG [MainDeployer] Stopping jboss.system:service=MainDeployer
+22:36:48,796 DEBUG [MainDeployer] Stopped jboss.system:service=MainDeployer
+22:36:48,796 DEBUG [ServiceController] destroying service: jboss.system:service=MainDeployer
+22:36:48,796 DEBUG [ServiceController] destroying dependent services for: jboss.system:service=MainDeployer dependent services are: []
+22:36:48,796 DEBUG [MainDeployer] Destroying jboss.system:service=MainDeployer
+22:36:48,796 DEBUG [MainDeployer] Destroyed jboss.system:service=MainDeployer
+22:36:48,796 DEBUG [ServiceController] removing service: jboss.system:service=MainDeployer
+22:36:48,796 DEBUG [ServiceController] removing jboss.system:service=MainDeployer from server
+22:36:48,796 DEBUG [ServiceController] Stopped 3 services
+22:36:48,797 DEBUG [Server] Deleting server tmp/deploy directory
+22:36:48,797 INFO  [Server] Shutdown complete
