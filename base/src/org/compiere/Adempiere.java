@@ -72,9 +72,9 @@ public final class Adempiere
 	static public String	DB_VERSION		= "2019-12-01";
 
 	/** Product Name            */
-	static public final String	NAME 			= "ADempiere\u00AE";
+	static public final String	NAME 			= "PoasaErp\u00AE";
 	/** URL of Product          */
-	static public final String	URL				= "www.Helpe.net";
+	static public final String	URL				= "www.HelpTechSv.net";
 	/** 16*16 Product Image. **/
 	static private final String	s_File16x16		= "images/AD16.png";
 	/** 32*32 Product Image.   	*/
@@ -90,8 +90,8 @@ public final class Adempiere
 
 	/** Subtitle                */
 	static public final String	SUB_TITLE		= "Smart Suite ERP,CRM and SCM";
-	static public final String	ADEMPIERE_R		= "Powered by ADempiere ERP\u00AE";
-	static public final String	COPYRIGHT		= "\u00A9 1999-2019 ADempiere\u00AE";
+	static public final String	ADEMPIERE_R		= "Powered by HelpTechSv ERP\u00AE";
+	static public final String	COPYRIGHT		= "\u00A9 1999-2019 PoasaErp\u00AE";
 
 	static private String		s_ImplementationVersion = null;
 	static private String		s_ImplementationVendor = null;
@@ -102,7 +102,7 @@ public final class Adempiere
 	static private ImageIcon 	s_imageIcon32;
 	static private ImageIcon 	s_imageIconLogo;
 	
-	static private final String ONLINE_HELP_URL = "http://wiki.adempiere.net/Manual";
+	static private final String ONLINE_HELP_URL = "http://wiki.net/Manual";
 	/**	Reset Password	*/
 	static private final String RESTORE_PASSWORD_PATH = ":8888/webui";
 
