@@ -7,7 +7,7 @@
 <zk>
 	<!-- Adempiere thread session context handler -->
 	<listener>
-		<description>ADempiere WebUI Context management</description>
+		<description>POASA ERP MANAGMENT</description>
 		<listener-class>org.adempiere.webui.session.SessionContextListener
 		</listener-class>
 	</listener>

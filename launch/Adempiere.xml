@@ -35,13 +35,13 @@
   <versionInfo>
     <fileVersion>3.9.3.0</fileVersion>
     <txtFileVersion>Release 3.9.3LTS</txtFileVersion>
-    <fileDescription>Adempiere ERP &amp; CRM 3.9.3LTS</fileDescription>
-    <copyright>Adempiere</copyright>
+    <fileDescription>POASA ERP &amp; CRM 3.9.3LTS</fileDescription>
+    <copyright>POASA</copyright>
     <productVersion>3.9.1.0</productVersion>
     <txtProductVersion>Release 3.9.3LTS</txtProductVersion>
-    <productName>Adempier ERP &amp; CRM</productName>
-    <companyName>Adempiere Community</companyName>
-    <internalName>Adempiere</internalName>
+    <productName>POASA ERP &amp; CRM</productName>
+    <companyName>POASA</companyName>
+    <internalName>POASA</internalName>
     <originalFilename>Adempiere.exe</originalFilename>
   </versionInfo>
 </launch4jConfig>

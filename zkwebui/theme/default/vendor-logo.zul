@@ -10,7 +10,7 @@ Copyright (C) 2009 Idalica Corporation
 	<hbox valign="middle">
 		<toolbarbutton
 			href="http://www.idalica.com" image="http://www.testadempiere.com/images/Idalica_Logo-grey-sm.png" target="_blank"/>
-		<label value="ADempiere Online Demonstration - Built Nightly by Idalica"
+		<label value=" Online Demonstration - HELPTECH SA DE CV"
 			style="font-family:Arial,sans-serif; color:#578BB8; font-size:1em; font-weight: bold;" />
 	</hbox>
 </div>
