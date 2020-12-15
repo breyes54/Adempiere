@@ -3338,7 +3338,7 @@ d. Transaction Date, will become in-service-date for the newly created asset.</v
  <row id="50020002" trl="Y">
   <value column="Name" original="MovementsSheetManager">Scheda Movimenti italiana</value>
   <value column="Description" original="">Scheda Movimenti italiana</value>
-  <value column="Help" original="http://adempiere/reports/SchedaMovimenti.jasper"/>
+  <value column="Help" original="http://ErpPoasa/reports/SchedaMovimenti.jasper"/>
   <value column="UUID" original=""/>
  </row>
  <row id="50020003" trl="N">
@@ -3350,7 +3350,7 @@ d. Transaction Date, will become in-service-date for the newly created asset.</v
  <row id="50020004" trl="N">
   <value column="Name" original="MovementsSheet">MovementsSheet</value>
   <value column="Description" original=""/>
-  <value column="Help" original="http://adempiere/reports/SchedaMovimenti.jasper"/>
+  <value column="Help" original="http://ErpPoasa/reports/SchedaMovimenti.jasper"/>
   <value column="UUID" original=""/>
  </row>
  <row id="50020005" trl="Y">
@@ -3847,19 +3847,19 @@ org.compiere.report.ReportStarter</value>
  <row id="50020089" trl="Y">
   <value column="Name" original="MovementsSheetManager_NoBankAccounts">Scheda Movimenti italiana - no conti bancari</value>
   <value column="Description" original="">Scheda Movimenti italiana - no conti bancari</value>
-  <value column="Help" original="http://adempiere/reports/SchedaMovimenti.jasper">Scheda Movimenti italiana - no conti bancari</value>
+  <value column="Help" original="http://ErpPoasa/reports/SchedaMovimenti.jasper">Scheda Movimenti italiana - no conti bancari</value>
   <value column="UUID" original=""/>
  </row>
  <row id="50020091" trl="N">
   <value column="Name" original="MovementsSheetNoTot">MovementsSheetNoTot</value>
   <value column="Description" original=""/>
-  <value column="Help" original="http://adempiere/reports/SchedaMovimentiNoTot.jasper">http://adempiere/reports/SchedaMovimentiNoTot.jasper</value>
+  <value column="Help" original="http://ErpPoasa/reports/SchedaMovimentiNoTot.jasper">http://ErpPoasa/reports/SchedaMovimentiNoTot.jasper</value>
   <value column="UUID" original=""/>
  </row>
  <row id="50020092" trl="Y">
   <value column="Name" original="MovementsSheetManagerNoTot">Scheda Movimenti Italiana No Tot</value>
   <value column="Description" original="">Scheda Movimenti italiana No Tot</value>
-  <value column="Help" original="http://adempiere/reports/SchedaMovimentiNoTot.jasper">http://adempiere/reports/SchedaMovimentiNoTot.jasper</value>
+  <value column="Help" original="http://ErpPoasa/reports/SchedaMovimentiNoTot.jasper">http://ErpPoasa/reports/SchedaMovimentiNoTot.jasper</value>
   <value column="UUID" original=""/>
  </row>
  <row id="50020093" trl="Y">
